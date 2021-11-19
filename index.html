@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Calcular</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="src/css/main.css">
+    </head>
+    <body>      
+        <main>
+            <div class="section">
+            <div class="title"> Poupança </div>
+            <div class="input">
+                <input placeholder="Qual é o seu nome?" type="text" id='nome' required>
+            </div>
+            <div class="input">
+                <input placeholder="Investimento mensal" type="number" id='mensal' required>
+            </div>
+            <div class="input">
+                <input  placeholder="Quantos meses"  type="number" id='meses' required>
+            </div>
+            <div class="input">
+                <input  placeholder="Taxa de juros"  type="number" id='juros' required>
+                </div>
+            <button id='calcular' onclick="juros()">Calcular</button>
+            <div class="result" id='result'></div>
+            </div>
+        </main>
+        <script src="./src/js/main.js"></script>
+    </body>
+</html>
